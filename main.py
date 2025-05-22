@@ -200,13 +200,6 @@ def download_page():
 
     return response.text
 
-
-
-
-
-
-
-
 @logger('parse.log')
 def find_articles(keywords):
     # здесь код для поиска статей по ключевым словам и возврата списка статей
