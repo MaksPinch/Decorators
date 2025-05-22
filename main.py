@@ -12,7 +12,11 @@ def logger(old_function):
     @wraps(old_function)
 
     def new_function(*args, **kwargs):
-        arguments = f'{args=} {kwargs=}'
+        arguments = f''
+        if args:
+            arguments += f'{args=} '
+        if kwargs:
+            arguments += f'{kwargs} '
         date = datetime.now()
         name = old_function.__name__
         result = old_function(*args, **kwargs)
