@@ -1,0 +1,20 @@
+2025-05-22 20:08:24.930719
+hello_world
+args=() kwargs={}
+Hello World
+2025-05-22 20:08:24.930719
+summator
+args=(2, 2) kwargs={}
+4
+2025-05-22 20:08:24.931789
+div
+args=(6, 2) kwargs={}
+3.0
+2025-05-22 20:08:24.931789
+summator
+args=(4.3,) kwargs={'b': 2.2}
+6.5
+2025-05-22 20:08:24.932908
+summator
+args=() kwargs={'a': 0, 'b': 0}
+0
